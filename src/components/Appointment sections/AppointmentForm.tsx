@@ -74,12 +74,12 @@ const DocForm = () => {
             </div>
           </div>
 
-            <div className="space-x-[9rem] flex mb-[2.5rem] sm:flex-col xs:flex-col sm:space-x-0 xs:space-x-0">
+            <div className="flex mb-[2.5rem] sm:flex-col xs:flex-col sm:space-x-0 xs:space-x-0 lg:flex-row lg:space-x-[7rem]">
               <div className="flex gap-[0.5rem] space-x-[3rem] md:space-x-[2rem] xs:space-x-[1rem]">
                 <h1>diabetes</h1>
                 <div className="select"><FormSelectedButton first="Yes" second="No"/></div>
               </div>
-              <div className="flex gap-[0.5rem] space-x-[3rem] sm:mt-[5rem] xs:mt-[5rem] xs:space-x-[1rem]">
+              <div className="flex gap-[0.5rem] space-x-[3rem] sm:mt-[5rem] xs:mt-[5rem] xs:space-x-[1rem] mt-[-3rem] lg:mt-0">
                 <h1>BP</h1>
                 <div className="select"><FormSelectedButton first="Yes" second="No"/></div>
               </div>
